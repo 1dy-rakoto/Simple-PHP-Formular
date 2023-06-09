@@ -1,0 +1,3 @@
+this is just a formular built with php.
+User can log into this. Add his/her name and a password.
+if already in then no subscription.

@@ -1,0 +1,78 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content{
+    text-align: center;
+}
+
+.container .content .btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 0 5px;
+    border-radius: 5px 5px;
+}
+
+.container .content .btn:hover{
+    background-color: crimson; 
+}
+
+.form-container{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background-color:#fff ;
+    text-align: center ;
+}
+
+.form-container form h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#333;
+}
+
+.form-container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+}
+.form-container form .btn{
+    width: 100%;
+    margin: 5px 0;
+    font-size: 16px;
+    padding: 5px 7px;
+    
+}
+.form-container form  .btn:hover{
+    background-color: crimson; 
+    color: #eee;
+}
+.form-container form a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
